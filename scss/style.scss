@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+.column h1 {
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-top: 0.3em;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.tech-stack .column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+  // background: rgba(0, 0, 0, 0.2);
+  margin: 0.1em;
+  text-align: center;
+
+  i {
+    font-size: 4rem;
+    margin-bottom: 0.1em;
+  }
+
+  svg {
+    height: 3.7em;
+  }
+
+  p {
+    padding: 0 0.5em;
+  }
+}
+
+.kb-spacer {
+  margin-bottom: 2rem;
+}
+
+.kb-stack-section {
+  font-size: 2rem;
+  padding: 0 0.5em 0.5em;
+  font-weight: 700;
+}
+
+.greenkeeper {
+  fill: #00c775;
+}
+
+.ach,
+.lodash,
+.devicon-github-plain-wordmark.colored {
+  fill: currentColor;
+  color: currentColor;
+}
+
+.is-128x173 {
+  width: 128px;
+  height: 173px;
+}
+
+.kb-card-social {
+  font-size: 2em;
+  width: 1.3em;
+  height: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  svg {
+    width: 95%;
+    height: 95%;
+    fill: currentColor;
+  }
+}
+
+.kb-kibibit {
+  font-family: 'Righteous', cursive;
+  letter-spacing: 0.1em;
+}
