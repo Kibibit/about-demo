@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-size: 14px;
 }
 
 body {
@@ -72,8 +73,107 @@ body {
   height: 95%;
   fill: currentColor;
 }
+.kb-card-social svg.dribble {
+  width: 75%;
+  height: 75%;
+}
 
 .kb-kibibit {
   font-family: 'Righteous', cursive;
   letter-spacing: 0.1em;
+}
+
+.kb-contributor {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+.kb-contributor img {
+  margin-bottom: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.kb-achievment-banner {
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: 9em auto 0;
+}
+
+.kb-achievement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -8em;
+}
+.kb-achievement svg {
+  transform: translate3d(-0.4em, 0.6em, 0);
+  width: 6em;
+  margin-bottom: 0.5em;
+  fill: white;
+}
+.kb-achievement .kb-achievement-name {
+  font-size: 0.8em;
+  position: relative;
+  z-index: 3;
+  color: white;
+  margin: 0 2em 1.2em;
+}
+.kb-achievement .kb-achievement-name .text {
+  padding: 0.5em;
+  position: relative;
+  z-index: 3;
+}
+.kb-achievement .kb-achievement-name .extra {
+  position: absolute;
+  width: 1em;
+  bottom: -0.6em;
+  z-index: 1;
+  border: 1em solid #3273dc;
+}
+.kb-achievement .kb-achievement-name .extra.left {
+  border-left-color: transparent;
+  transform: translateX(-100%);
+  left: 0.6em;
+}
+.kb-achievement .kb-achievement-name .extra.right {
+  border-right-color: transparent;
+  transform: translateX(100%);
+  right: 0.6em;
+}
+.kb-achievement .kb-achievement-name .shadow {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  border: 0.6em solid transparent;
+}
+.kb-achievement .kb-achievement-name .shadow.left {
+  border-right-color: #043140;
+  transform: translate3d(-50%, 50%, 0);
+  left: 0;
+}
+.kb-achievement .kb-achievement-name .shadow.right {
+  border-left-color: #043140;
+  transform: translate3d(50%, 50%, 0);
+  right: 0;
+}
+
+.kb-white {
+  fill: white;
+  color: white;
+}
+
+.axe {
+  fill: #ffdd57;
+}
+
+.kb-logo-move {
+  transform: translate3d(-10%, 0, 0);
+}
+
+.kb-achievibit-name {
+  font-family: 'Press Start 2P', cursive !important;
+  font-size: 1em !important;
 }
